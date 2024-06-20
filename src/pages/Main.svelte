@@ -1,0 +1,72 @@
+<script>
+  let hour = new Date().getHours();
+  let min = new Date().getMinutes();
+</script>
+
+<header>
+  <div class="info-bar">
+    <div class="info-bar__time">{hour}:{min}</div>
+    <div class="info-bar__icons">
+      <img src="assets/chart-bar.svg" alt="차트" />
+      <img src="assets/wifi.svg" alt="와이파이" />
+      <img src="assets/battery.svg" alt="배터리" />
+    </div>
+  </div>
+  <div class="menu-bar">
+    <div class="menu-bar__location">
+      <div>역삼1동</div>
+      <div class="menu-bar__location_icons">
+        <img src="assets/arrow.svg" alt="화살표" />
+      </div>
+    </div>
+    <div class="menu-bar__icons">
+      <img src="assets/search.svg" alt="돋보기" />
+      <img src="assets/menu.svg" alt="메뉴" />
+      <img src="assets/alert.svg" alt="종" />
+    </div>
+  </div>
+</header>
+<main>
+  <a class="write-button" href="#/write">+ 글쓰기</a>
+</main>
+<footer>
+  <div class="footer-block">
+    <div class="footer-icons">
+      <div class="footer-icons__img">
+        <img src="assets/home.svg" alt="홈" />
+      </div>
+      <div class="footer-icons__desc">홈</div>
+    </div>
+    <div class="footer-icons">
+      <div class="footer-icons__img">
+        <img src="assets/docu.svg" alt="문서" />
+      </div>
+      <div class="footer-icons__desc">동네생활</div>
+    </div>
+    <div class="footer-icons">
+      <div class="footer-icons__img">
+        <img src="assets/loca.svg" alt="지역" />
+      </div>
+      <div class="footer-icons__desc">내 근처</div>
+    </div>
+    <div class="footer-icons">
+      <div class="footer-icons__img">
+        <img src="assets/chat.svg" alt="챗" />
+      </div>
+      <div class="footer-icons__desc">채팅</div>
+    </div>
+    <div class="footer-icons">
+      <div class="footer-icons__img">
+        <img src="assets/user.svg" alt="유저" />
+      </div>
+      <div class="footer-icons__desc">나의 당근</div>
+    </div>
+  </div>
+</footer>
+<div class="media-info-msg">화면 사이즈를 줄여주세요.</div>
+
+<style>
+  .info-bar__time {
+    color: blue;
+  }
+</style>
